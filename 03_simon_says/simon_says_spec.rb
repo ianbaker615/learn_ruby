@@ -13,7 +13,7 @@
 
 require "simon_says"
 
-describe "Simon says" do
+describe "simon_says" do
   describe "echo" do
     it "should echo hello" do
       echo("hello").should == "hello"
@@ -89,7 +89,7 @@ describe "Simon says" do
     end
 
     it "does capitalize 'little words' at the start of a title" do
-      titleize("the bridge over the river kwai").should == "The Bridge over the River Kwai"
+      titleize("the bridge over the river kwai").should == "The Bridge Over the River Kwai"
     end
   end
 
